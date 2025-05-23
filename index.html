@@ -1,0 +1,55 @@
+<!DOCTYPE  html>
+<html lang=" en ">
+<head>
+    <meta charset=
+      "UTF-8">
+    <meta http-equiv=
+    "X-UA-Compatible"
+     content="IE=edge">
+    <meta name= " viewport "
+     content="width=device-width,initial-scale=1.0">
+
+     <title>secondbackground</title>
+     <link href= 
+      "https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" 
+       rel= "stylesheet">
+
+  <link rel= " stylesheet "
+   href="style.css">
+
+    <title>snakegame</title>
+
+    <link rel= " stylesheet "
+     href="index.css">
+
+   <style>
+    canvas {
+      display:none;
+      border:3px solid black;
+    }                         
+     #starbouton { 
+      font-size:20px;
+      padding:10px 20px; 
+      cursor:pointer;
+    }
+      </style>
+
+</head>                               
+<body>
+   <button id="startbouton">startgame</button>
+
+    <canvas id="canvas"width=" 500px " 
+     height= " 500px "
+     ></canvas>
+
+    <script src="index.js" 
+     ></script>
+    
+     <div id="gameOverScreen"
+      style="display:none;text-align:center;">   
+  <h2> Game Over </h2>
+  <p id="finalScore"></p>
+  <button onclick="restartGame()">Play Again</button>
+</div>
+</body>
+</html>

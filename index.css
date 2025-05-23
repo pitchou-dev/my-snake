@@ -1,0 +1,79 @@
+#canvas {
+ margin-top:100px;
+   width:400px;     
+  height:350px;
+    border:6px solid
+      rgb(255,255,255);
+    background-image:url('grid.jpg');  
+  background-size:cover;          
+  background-position:center;     
+}
+
+body {
+  margin:0;
+  height:100vh;
+  display:flex;
+  justify-content:center; 
+  align-items:center;   
+  background-image:url('po.png');  
+  background-size:cover;          
+  background-position:center ; 
+   }
+#startbouton {
+  padding:12px 30px;
+  font-size:20px;
+  font-weight:bold;
+ background-color:#2da3c7;
+  color:white;
+  border:none;
+  border-radius:12px;
+  cursor:pointer;
+}
+
+#startbouton:hover {
+  background-color:#151991;
+  transform:scale(1);
+}
+#gameOverScreen {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform:
+   translate(-50%, -50%);
+ background-color: #6317a1;
+  background-color: #2da3c7;
+  padding:30px;
+  border-radius:15px;
+  color: white;
+  font-family:'Arial',sans-serif;
+  box-shadow:
+    0 0 20px
+   rgba(3, 162, 125, 0.6);
+  z-index:10;
+}
+
+#gameOverScreen h2 {
+  font-size:2em;
+  margin-bottom:10px;
+}
+
+#gameOverScreen p {
+  font-size:1.2em;
+  margin-bottom:20px;
+}
+
+#gameOverScreen button {
+  padding:10px 20px;
+  font-size:1em;
+  background-image:url('po.png');
+  color:white;
+  border:none;
+  border-radius:10px;
+  cursor:pointer;
+  transition:
+   background-color 0.3s;
+}
+
+#gameOverScreen button:hover {
+  background-color:#2da3c7;
+}  
