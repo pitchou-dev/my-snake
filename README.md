@@ -83,7 +83,7 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript. Control the s
 2. Open `index.html` directly in your web browser
 3. No installation or dependencies required - it's pure vanilla JavaScript!
 
-This project was created by:
+This project was created by for a university project:
 
 - **LOUZRI Ibrahim**
 - **MESBAHI Adem**
