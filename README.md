@@ -16,7 +16,7 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript. Control the s
 ## 🕹️ How to Play
 
 1. Open `index.html` in your web browser
-2. Click the **"startgame"** button to begin
+2. Click the **"Start Game"** button to begin
 3. Use **Arrow Keys** to control the snake:
    - ⬆️ Up Arrow - Move up
    - ⬇️ Down Arrow - Move down
@@ -48,9 +48,9 @@ A classic Snake game built with vanilla HTML, CSS, and JavaScript. Control the s
 - Eating an apple increases your score and increases game speed
 
 ### Obstacles
-- 35 obstacles are randomly placed at the start of each game
-- Obstacles are positioned with minimum distance spacing to ensure playability
-- Obstacles are generated avoiding the initial snake position
+- 35 obstacles are randomly placed at the start of each game (carefully tuned to provide adequate challenge without overcrowding the board)
+- Obstacles are positioned with minimum distance spacing (30 pixels) to ensure playability and prevent clustering
+- Obstacles are generated avoiding the initial snake position to allow players a fair start
 
 ### Speed Progression
 - Initial speed: 120ms per frame
